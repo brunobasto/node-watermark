@@ -1,0 +1,28 @@
+{
+  "name": "node-watermark",
+  "description": "Adds watermark to a video file.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bruno Basto",
+    "email": "b.basto@gmail.com",
+    "web": "http://www.brunobasto.com",
+    "twitter": "bbasto"
+  },
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunobasto/node-watermark.git"
+  },
+  "keywords": [
+    "watermark"
+  ],
+  "engines": {
+    "npm": ">=2.0.0",
+    "node": ">=0.12.0"
+  },
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "optimist": "^0.6.1",
+    "rc": "^1.0.3"
+  }
+}
