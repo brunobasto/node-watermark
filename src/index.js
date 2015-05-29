@@ -9,12 +9,12 @@ var argv = rc(
 	'node-watermark', {}, optimist
 	.usage('Usage: $0 video_file -w watermark_file [options]')
 	.alias('o', 'output').describe('o', 'The path of the output video file').boolean('a')
+	.alias('v', 'version').describe('version', 'Prints current version').boolean('boolean')
 	.alias('w', 'watermark').describe('w', 'The watermark image path').boolean('a')
-	.describe('version', 'Prints current version').boolean('boolean')
 	.argv);
 
 if (argv.version) {
-	console.error(require('./package').version)
+	console.error(require('../package').version)
 	process.exit(0)
 }
 
@@ -22,7 +22,7 @@ var outputFilePath = argv.output;
 var videoFilePath = argv._[0];
 var watermarkFilePath = argv.watermark;
 
-if (!watermarkFilePath || !videoFilePath) {
+if (!videoFilePath || !watermarkFilePath) {
 	optimist.showHelp();
 
 	process.exit(1);
