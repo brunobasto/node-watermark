@@ -1,0 +1,1 @@
+Simple tool to add watermarks to video file. Note that you need ffmpeg installed on your machine for this to work.
