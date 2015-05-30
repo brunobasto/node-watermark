@@ -1,7 +1,7 @@
 {
   "name": "node-watermark",
-  "description": "Adds watermark to a video file.",
-  "version": "0.0.1",
+  "description": "Adds watermark to video files.",
+  "version": "0.0.2",
   "author": {
     "name": "Bruno Basto",
     "email": "b.basto@gmail.com",
