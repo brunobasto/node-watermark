@@ -9,7 +9,7 @@ var argv = rc(
 	.usage('Usage: $0 video_file -w watermark_file [options]')
 	.alias('o', 'output').describe('o', 'The path of the output video file').boolean('a')
 	.alias('v', 'version').describe('version', 'Prints current version').boolean('boolean')
-	.alias('w', 'watermark').describe('w', 'The watermark image path').boolean('a')
+	.alias('w', 'watermark').describe('w', '[Required] The watermark image path.').boolean('a')
 	.argv);
 
 if (argv.version) {
