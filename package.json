@@ -1,7 +1,7 @@
 {
 	"name": "node-watermark",
 	"description": "Simple tool to add watermarks to video files. Note that you need ffmpeg installed on your machine for this to work.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": {
 		"name": "Bruno Basto",
 		"email": "b.basto@gmail.com",
