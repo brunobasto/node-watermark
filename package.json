@@ -1,28 +1,33 @@
 {
-  "name": "node-watermark",
-  "description": "Adds watermark to video files.",
-  "version": "0.0.2",
-  "author": {
-    "name": "Bruno Basto",
-    "email": "b.basto@gmail.com",
-    "web": "http://www.brunobasto.com",
-    "twitter": "bbasto"
-  },
-  "license": "BSD",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:brunobasto/node-watermark.git"
-  },
-  "keywords": [
-    "watermark"
-  ],
-  "engines": {
-    "npm": ">=2.0.0",
-    "node": ">=0.12.0"
-  },
-  "dependencies": {
-    "ffmpeg": "0.0.4",
-    "optimist": "^0.6.1",
-    "rc": "^1.0.3"
-  }
+	"name": "node-watermark",
+	"description": "Simple tool to add watermarks to video files. Note that you need ffmpeg installed on your machine for this to work.",
+	"version": "0.0.3",
+	"author": {
+		"name": "Bruno Basto",
+		"email": "b.basto@gmail.com",
+		"web": "http://www.brunobasto.com",
+		"twitter": "bbasto"
+	},
+	"license": "BSD",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:brunobasto/node-watermark.git"
+	},
+	"bin": {
+		"watermark": "./src/cli.js"
+	},
+	"keywords": [
+		"ffmpeg",
+		"video",
+		"watermark"
+	],
+	"engines": {
+		"npm": ">=2.0.0",
+		"node": ">=0.12.0"
+	},
+	"dependencies": {
+		"ffmpeg": "0.0.4",
+		"optimist": "^0.6.1",
+		"rc": "^1.0.3"
+	}
 }
