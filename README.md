@@ -1,1 +1,1 @@
-Simple tool to add watermarks to video files. Note that you need ffmpeg installed on your machine for this to work.
+Deprecated. See watermark-video for updated versions.
